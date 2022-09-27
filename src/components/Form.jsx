@@ -46,7 +46,7 @@ const Form = () => {
     return errors;
   };
   return (
-    <div className="w-[90%] m-auto h-full flex flex-col justify-center items-center text-[#fff] desktop:w-[80%] desktop:flex-row desktop:gap-[80px]">
+    <div className="w-[90%] m-auto h-full flex flex-col justify-center items-center text-[#fff] desktop:w-[60%] desktop:flex-row desktop:gap-[80px]">
       <div className="text-center desktop:w-[90%] desktop:text-left">
         <h1 className="font-bold text-3xl mb-[25px] desktop:text-[50px] desktop:leading-[60px]">
           Learn to code by watching others
@@ -120,7 +120,7 @@ const Form = () => {
           <div className="mb-6">
             <input
               className={
-                formErrors.password
+                formErrors.firstName
                   ? "shadow appearance-none border-2 border-[#d9534f] rounded w-full py-3 px-3 text-[#000] font-[500] leading-tight outline-blue focus:shadow-outline"
                   : "shadow appearance-none border-2 border-black/10 rounded w-full py-3 px-3 text-[#000] font-[500] leading-tight outline-blue focus:shadow-outline"
               }
